@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ARViewContainer.makeUIView(context:):ContentView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ARViewContainer.updateUIView(_:context:):ContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "uiView.scene.anchors">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
