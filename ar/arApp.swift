@@ -12,7 +12,8 @@ struct arApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            MetalDepthView()
+//            MetalDepthView()
+            MainView()
         }
     }
 }

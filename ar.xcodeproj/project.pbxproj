@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CF0D5B6C26BE7136005F8BD9 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CF0D5B6B26BE6F6D005F8BD9 /* Experience.rcproject */; };
 		CF36053326ADA52200A041F4 /* arApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36053226ADA52200A041F4 /* arApp.swift */; };
-		CF36053526ADA52200A041F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36053426ADA52200A041F4 /* ContentView.swift */; };
+		CF36053526ADA52200A041F4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36053426ADA52200A041F4 /* MainView.swift */; };
 		CF36053726ADA52400A041F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF36053626ADA52400A041F4 /* Assets.xcassets */; };
 		CF36053A26ADA52400A041F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF36053926ADA52400A041F4 /* Preview Assets.xcassets */; };
 		CF548B2026C7F0AD00564B53 /* ARReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF548B1F26C7F0AD00564B53 /* ARReceiver.swift */; };
@@ -29,7 +29,7 @@
 		CF0D5B6B26BE6F6D005F8BD9 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		CF36052F26ADA52200A041F4 /* ar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF36053226ADA52200A041F4 /* arApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arApp.swift; sourceTree = "<group>"; };
-		CF36053426ADA52200A041F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF36053426ADA52200A041F4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CF36053626ADA52400A041F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF36053926ADA52400A041F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF36053B26ADA52400A041F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				CF36053226ADA52200A041F4 /* arApp.swift */,
-				CF36053426ADA52200A041F4 /* ContentView.swift */,
+				CF36053426ADA52200A041F4 /* MainView.swift */,
 				CF548B2F26CA8D8900564B53 /* MeshView.swift */,
 				CF548B3126CA944B00564B53 /* ARSceneView.swift */,
 				CF548B3326CA947700564B53 /* Extensions.swift */,
@@ -175,7 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF548B2A26C8E38400564B53 /* MetalTextureViewDepth.swift in Sources */,
-				CF36053526ADA52200A041F4 /* ContentView.swift in Sources */,
+				CF36053526ADA52200A041F4 /* MainView.swift in Sources */,
 				CF548B2C26C8E39900564B53 /* MetalTextureViewConfidence.swift in Sources */,
 				CF548B2426C8D27200564B53 /* ARDataProvider.swift in Sources */,
 				CF36053326ADA52200A041F4 /* arApp.swift in Sources */,
